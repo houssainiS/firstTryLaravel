@@ -9,5 +9,7 @@
 @yield('contactcontent')
 @yield('aboutcontent')
 @yield('bodycontent')
-
+@yield('showcontent')
+@yield('indexcontent')
+@yield('createconent')
 </html>

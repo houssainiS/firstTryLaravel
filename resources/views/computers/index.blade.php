@@ -1,3 +1,5 @@
+@extends('layout')
+@section('indexcontent')
 @section('title','show')
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +13,7 @@
 @foreach ($computers as $computer)
 @if(count($computers)>0)
     <a href="{{route('computers.show',['computer'=>$computer['id']] ) }}" >
-    <li>{{$computer['id']}} {{$computer['name']}} is from {{$computer['origin']}}</li>
+    <li>{{$computer['id']}} {{$computer['name']}} is from {{$computer['origin']}} - <strong>999$</strong></li>
     </a>
    
 
@@ -20,3 +22,4 @@
 @endif
 @endforeach
 </html>
+@endsection
