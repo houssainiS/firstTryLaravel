@@ -1,0 +1,214 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header a img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #007bff;
+}
+
+.hero-section {
+    text-align: center;
+}
+
+.hero-section img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.hero-section button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add styles for other sections as needed */
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+        .about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-section img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.about-team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.contact-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-form form {
+    width: 100%;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.product-card {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.product-card .price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    transition: 1.5s smooth;
+}
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.5em);
+}
+li{
+    list-style-type: none;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+li:hover{
+    text-decoration: underline;
+    transform: scale(1.5em);
+}
+
+
