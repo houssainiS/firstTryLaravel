@@ -8,7 +8,7 @@
                 <li><a href="{{route('about')}}">About</a></li>
                 <li><a href="{{route('contact')}}">Contact</a></li>
                 <li><a href="{{route('store')}}">Store</a></li>
-                <li><a href="{{route('computers.index')}}">Computers</a></li>
+                <li><a href="{{route('computers.index')}}">Computers </a></li>
             </ul>
         </nav>
     </header>
@@ -27,4 +27,5 @@
         <p>&copy; 2023 Your Company Name</p>
     </footer>
 </body>
+
 @endsection
